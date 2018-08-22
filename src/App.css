@@ -1,0 +1,75 @@
+:root {
+  --intive-blue: rgb(14, 133, 200);
+  --light-grey: rgb(211, 211, 211);
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--intive-blue);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  width: 150px;
+  display: inline-block;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 30px;
+  background-color: var(--light-grey);
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.save-button {
+  position: relative;
+  left: 265px;
+  margin-top: 20px;
+  padding: 5px 25px 5px 25px;
+  border: 2px solid var(--intive-blue);
+  color: var(--intive-blue);
+  background-color: var(--light-grey);
+}
+
+.field > input, select {
+  width: 200px;
+  border: 1px solid var(--intive-blue);
+}
+
+.field {
+  margin: 5px 0 5px 0;
+}
+
+.greeting {
+  display: block;
+  width: 380px;
+  margin-top: 30px;
+  padding: 0 5px 0 5px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(171, 238, 127);
+}
+
+.name {
+  align-self: flex-end;
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+
+
+
